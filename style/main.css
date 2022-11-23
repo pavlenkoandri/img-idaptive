@@ -1,0 +1,232 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main,
+footer {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: "Lato";
+  font-size: 16px;
+  color: #565656;
+}
+
+span {
+  font-family: "Lato";
+  display: block;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.text-dikoreishin {
+  margin-bottom: 15px;
+}
+
+.holder-img {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 70px;
+  background: #f4f4f4;
+  padding-top: 70px;
+}
+
+.footer-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-holder .namber {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: "Lato";
+  font-size: 18px;
+  color: #000000;
+}
+.footer-holder .imail {
+  margin-bottom: 40px;
+  font-family: "Lato";
+  font-size: 18px;
+  color: #000000;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.copyright .copyright-text {
+  font-family: "Lato";
+  font-size: 16px;
+  color: #000000;
+}
+
+.footer-title {
+  font-family: "Red Hat Display";
+  font-size: 32px;
+  color: #000000;
+}
+
+.instagram,
+.facebook,
+.twitter,
+.linkedin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #565656;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.instagram:hover,
+.facebook:hover,
+.twitter:hover,
+.linkedin:hover {
+  background-color: #565656;
+}
+.instagram:hover path,
+.facebook:hover path,
+.twitter:hover path,
+.linkedin:hover path {
+  fill: #fff;
+}
+
+.img-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 30px 40px;
+}
+
+@media (min-width: 768px) {
+  header,
+main,
+footer {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  h1 {
+    font-size: 33px;
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 28px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+  span {
+    margin-bottom: 68px;
+  }
+  p {
+    font-size: 19px;
+  }
+  .footer-title {
+    font-size: 48px;
+  }
+  .img-holder {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1024px) {
+  header,
+main,
+footer {
+    margin-left: 135px;
+    margin-right: 135px;
+  }
+  h1 {
+    font-size: 48px;
+    margin-bottom: 70px;
+  }
+  span {
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+  .foter-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer-title {
+    margin-bottom: 10px;
+  }
+  .foter-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .img-holder {
+    margin-right: 0;
+    width: 28%;
+  }
+}
